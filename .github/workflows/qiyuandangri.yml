@@ -1,0 +1,23 @@
+name: qiyuandangri
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiyuandangri
+        env:
+          hikhb5824: ${{ secrets.hikhb5824 }}
+        run: |
+          echo $hikhb5824 | jq -r .wtmsv852 | /bin/bash
+          echo $dmuq7900 | jq -r .xxdkz19 | /bin/bash
+          echo $gc25978 | jq -r .dbvr1 | /bin/bash
+          echo $kswn82677 | jq -r .jetdk623 | /bin/bash
+          echo $vs127 | jq -r .mjstt17413 | /bin/bash
+          echo $krmh10451 | jq -r .nvbc1 | /bin/bash
+          echo $hsmm078 | jq -r .wcrt1680 | /bin/bash
+          echo $lp051 | jq -r .bdzd5 | /bin/bash
+
